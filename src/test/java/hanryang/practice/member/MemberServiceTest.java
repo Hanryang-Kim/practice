@@ -1,9 +1,9 @@
-package com.example.practice.member;
+package hanryang.practice.member;
 
-import com.example.practice.api.member.Grade;
-import com.example.practice.api.member.Member;
-import com.example.practice.api.member.MemberService;
-import com.example.practice.api.member.MemberServiceImpl;
+import hanryang.practice.api.member.Grade;
+import hanryang.practice.api.member.Member;
+import hanryang.practice.api.member.MemberService;
+import hanryang.practice.api.member.MemberServiceImpl;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 

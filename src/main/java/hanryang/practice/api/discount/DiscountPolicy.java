@@ -1,6 +1,6 @@
-package com.example.practice.api.discount;
+package hanryang.practice.api.discount;
 
-import com.example.practice.api.member.Member;
+import hanryang.practice.api.member.Member;
 
 public interface DiscountPolicy {
 

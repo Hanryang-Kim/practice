@@ -1,6 +1,4 @@
-package com.example.practice.api.order;
-
-import com.example.practice.api.member.Grade;
+package hanryang.practice.api.order;
 
 public class Order {
 

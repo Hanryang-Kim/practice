@@ -1,4 +1,4 @@
-package com.example.practice.api.member;
+package hanryang.practice.api.member;
 
 import java.util.HashMap;
 import java.util.Map;

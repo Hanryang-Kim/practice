@@ -1,10 +1,10 @@
-package com.example.practice.api.order;
+package hanryang.practice.api.order;
 
-import com.example.practice.api.discount.DiscountPolicy;
-import com.example.practice.api.discount.FixDiscountPolicy;
-import com.example.practice.api.member.Member;
-import com.example.practice.api.member.MemberRepository;
-import com.example.practice.api.member.MemoryMemberRepository;
+import hanryang.practice.api.discount.DiscountPolicy;
+import hanryang.practice.api.discount.FixDiscountPolicy;
+import hanryang.practice.api.member.Member;
+import hanryang.practice.api.member.MemberRepository;
+import hanryang.practice.api.member.MemoryMemberRepository;
 
 public class OrderServiceImpl implements OrderService {
 

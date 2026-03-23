@@ -1,4 +1,4 @@
-package com.example.practice.api.member;
+package hanryang.practice.api.member;
 
 public class Member {
     private Long id;

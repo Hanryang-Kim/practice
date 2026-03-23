@@ -1,7 +1,7 @@
-package com.example.practice.api.discount;
+package hanryang.practice.api.discount;
 
-import com.example.practice.api.member.Grade;
-import com.example.practice.api.member.Member;
+import hanryang.practice.api.member.Grade;
+import hanryang.practice.api.member.Member;
 
 public class FixDiscountPolicy implements DiscountPolicy {
     private int discountFixAmount = 1000; // 1000원 할인
