@@ -8,7 +8,7 @@ public class Member {
         return id;
     }
 
-    public Void setId(Long id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

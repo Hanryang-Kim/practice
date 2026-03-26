@@ -4,9 +4,9 @@ import hanryang.practice.api.domain.Member;
 
 import java.util.*;
 
-public class MemoryMemberReopository implements MemberRepository {
+public class MemoryMemberRepository implements MemberRepository {
 
-    private static Map<Long, Member> store = new HashMap<>();
+    public static Map<Long, Member> store = new HashMap<>();
     private static Long sequence = 0L;
 
     @Override
@@ -17,7 +17,7 @@ public class MemoryMemberReopository implements MemberRepository {
     }
 
     @Override
-    public Optional<Member> findById(String id) {
+    public Optional<Member> findById(Long id) {
         return Optional.ofNullable(store.get(id));
     }
 
@@ -31,5 +31,9 @@ public class MemoryMemberReopository implements MemberRepository {
     @Override
     public List<Member> findAll() {
         return new ArrayList<>(store.values());
+    }
+
+    public void clearStore(){
+        store.clear();
     }
 }
