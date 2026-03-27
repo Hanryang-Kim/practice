@@ -1,4 +1,4 @@
-package hanryang.practice.api.domain.repository;
+package hanryang.practice.api.repository;
 
 import hanryang.practice.api.domain.Member;
 
