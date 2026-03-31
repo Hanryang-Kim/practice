@@ -1,0 +1,21 @@
+package hanryang.practice.api.service;
+
+import hanryang.practice.api.member.MemberServiceImpl;
+import hanryang.practice.api.repository.MemberRepository;
+import hanryang.practice.api.repository.MemoryMemberRepository;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class SpringConfig {
+
+    @Bean
+    public MemberService memberService() {
+        return new MemberService(memberRepository());
+    }
+
+    @Bean
+    public MemberRepository memberRepository() {
+        return new MemoryMemberRepository();
+    }
+}

@@ -1,13 +1,13 @@
 package hanryang.practice.repository;
 
 import hanryang.practice.api.domain.Member;
-import hanryang.practice.api.repository.MemberRepository;
 import hanryang.practice.api.repository.MemoryMemberRepository;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
+
 import java.util.List;
 
-import static org.assertj.core.api.Assertions.*;
+import static org.assertj.core.api.Assertions.assertThat;
 
 class MemoryMemberRepositoryTest {
 
